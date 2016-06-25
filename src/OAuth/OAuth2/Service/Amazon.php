@@ -24,6 +24,7 @@ class Amazon extends AbstractService
      */
     const SCOPE_PROFILE     = 'profile';
     const SCOPE_POSTAL_CODE = 'postal_code';
+    const SCOPE_ALEXA = 'alexa:all';
 
     public function __construct(
         CredentialsInterface $credentials,
